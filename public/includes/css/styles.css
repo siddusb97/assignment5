@@ -1,0 +1,266 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Siddanagouda
+Updated: May 2016
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 15px;
+	padding: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+.unstyled li{
+  display:inline;
+}
+.navbar{
+	background-color: #DCF5EB;
+}
+
+.navfooter li{
+  display: inline;
+  padding: 10px 10px;
+  margin: 20px 20px
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+  	padding: 13px 15px;
+}
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; max-width: 100%; }
+
+#slide1 {
+	background: url('../../images/1NM.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/2NM.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/3NM.jpg') top center no-repeat;
+}
+#slide4 {
+	background: url('../../images/4NM.jpg') top center no-repeat;
+}
+#slide4 {
+	background: url('../../images/5NM.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+	 .modal-header {
+	     padding:9px 15px;
+	     border-bottom:1px solid #eee;
+	     background-color: #358E94;
+			 text-align: center;
+	     -webkit-border-top-left-radius: 5px;
+	     -webkit-border-top-right-radius: 5px;
+	     -moz-border-radius-topleft: 5px;
+	     -moz-border-radius-topright: 5px;
+	      border-top-left-radius: 5px;
+	      border-top-right-radius: 5px;
+	  }
+
+		#myModal1 .modal-header {
+ 	     padding:9px 15px;
+ 	     border-bottom:1px solid #eee;
+ 	     background-color: #943735;
+ 			 text-align: center;
+ 	     -webkit-border-top-left-radius: 5px;
+ 	     -webkit-border-top-right-radius: 5px;
+ 	     -moz-border-radius-topleft: 5px;
+ 	     -moz-border-radius-topright: 5px;
+ 	      border-top-left-radius: 5px;
+ 	      border-top-right-radius: 5px;
+ 	  }
+	#myModal1 .modal-body{
+		text-align: center;
+		font-size: 20px;
+
+	}
+
+
+.heading h1{
+	margin-top: 20px;
+	text-align: center;
+	font-style: Bold;
+	 color: blue
+}
+.addMovieBtn {
+	margin-top: 10px;
+	text-align: center;
+	}
+.addBtn button,.updtBtn button{
+	margin-left: 250px;
+}
+
+	.addMovieBtn button{
+		 position: absolute;
+	}
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well  {
+	margin: 20px 0;
+}
+.movie{
+	margin-top: 100px;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+
+	.thumbnail .price {
+		font-size: 14px;
+	}
+
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px;max-width: 100%; }
+
+	#slide1 {
+		background: url('../../images/1NS.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/2NS.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/3NS.jpg') top center no-repeat;
+	}
+	#slide4 {
+		background: url('../../images/4NS.jpg') top center no-repeat;
+	}
+	#slide5 {
+		background: url('../../images/5NS.jpg') top center no-repeat;
+	}
+
+	.carousel-caption {
+		font-size: 16px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px;max-width: 100%; }
+
+	#slide1 {
+		background: url('../../images/1NL.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/2NL.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/3NL.jpg') top center no-repeat;
+	}
+	#slide4 {
+		background: url('../../images/4NL.jpg') top center no-repeat;
+	}
+	#slide5 {
+		background: url('../../images/5NL.jpg') top center no-repeat;
+	}
+
+}

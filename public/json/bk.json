@@ -1,0 +1,93 @@
+[
+    {
+        "Title": "Avatar",
+        "Year": "2009",
+        "Released": "2009-12-18",
+        "Director": "James Cameron",
+        "Actors": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+        "Plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "Language": "English",
+        "Country": "US,UK",
+        "Awards": "Won 3 Oscars. Another 77 wins & 116 nominations",
+        "Poster": "/images/Avatar.jpg",
+        "Rating": "8"
+    },
+    {
+        "Title": "Chakravyuha",
+        "Year": "2017",
+        "Released": "2016-03-17",
+        "Director": "M. Saravanan",
+        "Actors": "Puneeth Rajkumar, Sadhu Kokila, Arun Vijay, Rachita Ram",
+        "Plot": "A young man (Puneeth Rajkumar) finds himself in too deep after taking an injured protester to a hospital.",
+        "Language": "Kannada",
+        "Country": "India",
+        "Awards": "N/A",
+        "Poster": "/images/Chakravyuha.jpg",
+        "Rating": "3.5"
+    },
+    {
+        "Title": "Titanic",
+        "Year": "1997",
+        "Released": "1997-12-19",
+        "Director": "James Cameron",
+        "Actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates",
+        "Plot": "A seventeen-year-old aristocrat falls in love with a kind, but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "Won 11 Oscars. Another 109 wins & 73 nominations",
+        "Poster": "/images/Titanic.jpg",
+        "Rating": "7.7"
+    },
+    {
+        "Title": "Bahubali",
+        "Year": "2015",
+        "Released": "2015-07-09",
+        "Director": "S.S. Rajamoul",
+        "Actors": "Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah Bhatia",
+        "Plot": "In ancient India, an adventurous and daring man becomes involved in a decades old feud between two warring people",
+        "Language": "Telagu",
+        "Country": "India",
+        "Awards": "1 win & 7 nominations",
+        "Poster": "/images/Bahubali.jpg",
+        "Rating": "8.5"
+    },
+    {
+        "Title": "Captain America",
+        "Year": "2016",
+        "Released": "2016-05-06",
+        "Director": "Anthony Russo, Joe Russo",
+        "Actors": "Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan",
+        "Plot": "Political interference in the Avengers' activities causes a rift between former allies Captain America and Iron Man",
+        "Language": "Xhosa, English, German, Russian, Romanian",
+        "Country": "USA, Germany",
+        "Awards": "N/A",
+        "Poster": "/images/Captain America.jpg",
+        "Rating": "8.4"
+    },
+    {
+        "Title": "Mr. and Mrs. Ramachari",
+        "Year": "2014",
+        "Released": "2014-12-25",
+        "Director": "Santhosh Ananddram",
+        "Actors": "Yash, Radhika Pandit, Achyuth Kumar, Srinath",
+        "Plot": "The movie is about a hot-headed guy Ramachari, who becomes a fan of Vishnuvardhan's Ramachari from Nagarahaavu after seeing the same consequences they went through. He goes to an extent to ...",
+        "Language": "Kannada",
+        "Country": "India",
+        "Awards": "13 wins & 9 nominations",
+        "Poster": "/images/Mr. and Mrs. Ramachari.jpg",
+        "Rating": "7"
+    },
+    {
+        "Title": "Masterpiece",
+        "Year": "2015",
+        "Released": "2015-12-25",
+        "Director": " Manju Mandavya",
+        "Actors": "Yash,Shanvi Srivatsav,Chikkanna,Suhasini",
+        "Plot": "Yuva grows up to be a local goon against the wish of his mother. His accidental confrontation with a dangerous drug lord lands him into a web of problems.",
+        "Language": "Kannada",
+        "Country": "India",
+        "Awards": "N/A",
+        "Poster": "/images/Masterpiece.jpg",
+        "Rating": "8.5"
+    }
+]

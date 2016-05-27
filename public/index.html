@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>My Second Responsive Website</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css" >
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="" alt="Your Logo" ></a>
+					<div class="navbar-header">
+      <a class="navbar-brand" href="#">Top 10 Movies</a>
+    </div>
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#" ><span class="glyphicon glyphicon-home"></span>Home</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">WatchList <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Veer-Zaara</a>
+									</li>
+
+									<li>
+										<a href="#">Avengers</a>
+									</li>
+
+									<li>
+										<a href="#">Titanic</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">More Movies</li>
+
+									<li>
+										<a href="#"> Baahubali</a>
+									</li>
+
+									<li>
+										<a href="#">Chakravyuha </a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+								<li>
+									<a href="#">Blog</a>
+							</li>
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+
+						<ul class="nav navbar-nav pull-right">
+							<li>
+								<a href="#" data-toggle="modal" data-target="#myModalHorizontal" class="addNew">Add Movie</a>
+						</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span>Intiate Campaign</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+
+
+			<div class="carousel slide " id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="3" data-target="#myCarousel"></li>
+					<li data-slide-to="4" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Movies</h4>
+							<p>"10 Movies to Watch before I Die</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Movies</h4>
+							<p>"10 Movies to Watch before I Die"</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Cinemas</h4>
+							<p>"10 Movies to Watch before I Die"</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					<div class="item" id="slide4">
+						<div class="carousel-caption">
+							<h4>Cinemas</h4>
+							<p>"10 Movies to Watch before I Die"</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					<div class="item" id="slide5">
+						<div class="carousel-caption">
+							<h4>Cinemas</h4>
+							<p>"10 Movies to Watch before I Die"</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!-- end myCarousel -->
+
+			<div class="heading" ><h1 >10 Movies to Watch before You Die</h1></div>
+
+
+		<div class="addMovieBtn">	<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalHorizontal">
+			    Add New Movie
+			</button></div>
+
+<div class="col-sm-12 movie" id="id01" >
+</div>
+
+
+
+
+<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close"
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    New Movie
+                </h4>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+
+                <form class="form-horizontal" role="form" action="addNew" method="post" enctype="multipart/form-data">
+                  <div class="form-group ">
+                    <label  class="col-sm-4 control-label "
+                              for="inputEmail3">Movie Name</label>
+                    <div class="col-sm-6 title ">
+                        <input type="text" class="form-control " name="title"
+                        id="title" placeholder="Movie" required/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-4 control-label"
+                          for="inputYear" >Year</label>
+                    <div class="col-sm-6 year">
+                        <input type="text" class="form-control " name="year"
+                            id="year" placeholder="YYYY" required/>
+                    </div>
+                  </div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Actors</label>
+										<div class="col-sm-6">
+												<input type="text" class="form-control" name="actors"
+												id="actors" placeholder="Actors"  required/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Director</label>
+										<div class="col-sm-6">
+												<input type="text" class="form-control" name="director"
+												id="director" placeholder="Director"  required/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Description</label>
+										<div class="col-sm-6">
+												<textarea class="form-control" name="plot"
+												id="plot" placeholder="Short Description" rows="6"cols="5" required></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Release Date</label>
+										<div class="col-sm-6">
+												<input type="date" class="form-control  " name="released"
+												id="released" required />
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Language</label>
+										<div class="col-sm-3">
+												<input type="text" class="form-control" name="language"
+											id="language"	 placeholder="Language" required/>
+										</div>
+										<label  class="col-sm-2 control-label"
+															for="inputEmail3">Country</label>
+										<div class="col-sm-3">
+												<input type="text" class="form-control" name="country"
+												id="country" placeholder="Country" required/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Rating</label>
+										<div class="col-sm-6">
+												<input type="text" class="form-control" name="rating"
+												id="rating" placeholder="Rating"/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputEmail3">Awards</label>
+										<div class="col-sm-6">
+												<input type="text" class="form-control" name="awards"
+												id="awards" placeholder="Awards"/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label  class="col-sm-4 control-label"
+															for="inputPoster">Image</label>
+										<div class="col-sm-8">
+												<input type="file" class="form-control" name="poster"
+													id="poster1" placeholder="poster"/>
+										</div>
+									</div>
+
+                  <div class="form-group addBtn">
+                    <div class=" col-sm-offset-4 col-sm-8">
+                      <button type="submit" class="btn btn-primary ">Add</button>
+                    </div>
+                  </div>
+									<div class="form-group updtBtn hidden">
+										<div class="col-sm-offset-4 col-sm-8">
+											<button type="submit" class="btn btn-primary  " formaction="updateDetails" >Update</button>
+										</div>
+									</div>
+                </form>
+
+
+
+
+
+
+            </div>
+
+          </div>
+    </div>
+</div>
+<!--delete modal popup-->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Delete Movie</h4>
+               </div>
+               <div class="modal-body">
+                  <p>Are you sure want to delete this movie?</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="#" class="btn btn-danger dlbutton">Delete Movie</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+
+		</div><!-- end container -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2016</h6>
+					</div><!-- end col-sm-2 -->
+
+
+
+					<div class="col-sm-6">
+							<ul class="visible navfooter">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+
+					<div class="col-sm-4">
+
+						<ul class="unstyled ">
+
+							<li><a href="http://facebook.com">
+							<img src="../images/fb.png" alt="Facebook" class="img-circle"  ></a></li>
+							<li><a href="http://twitter.com">
+							<img src="../images/twitter.png" alt="Twitter"  class="img-circle"></a></li>
+							<li><a href="https://in.linkedin.com/">
+							<img src="../images/linkedIn.png" alt="LinkedIn" class="img-circle" ></a></li>
+							<li><a href="https://www.instagram.com">
+							<img src="../images/insta.png" alt="Instagram" class="img-circle" ></a></li>
+
+						</ul>
+					</div><!-- end col-sm-2 -->
+
+
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	<script>
+	$(document).ready(function(){
+	//	$("#datepicker").datepicker('show');
+
+		$.ajax({
+   url: "/getJsonFile",
+	success:function(data){
+			 var out = "";
+
+				 $.each(data, function(index, val) {//height="300px" width="200px"
+
+					// console.log(data[index].Poster);
+					out+='<div class="col-sm-4">'+'<img id="poster"  alt="Bootstrap Image Preview" src="'+ data[index].Poster +'" class="img-rounded"></div><div class="col-sm-8"><h2 style="font-style: Bold">'
+					+data[index].Title+'</h3><label  class="col-sm-2 ">Year :</label><label  class="col-sm-10 ">'+data[index].Year +'</label><br>'+
+					'<label  class="col-sm-2 ">Actors   :</label><label  class="col-sm-10 ">'+data[index].Actors+'</label><br>'+
+					'<label  class="col-sm-2 ">Director :</label><label  class="col-sm-10 ">'+data[index].Director +'</label><br>'+
+					'<label  class="col-sm-2 ">Plot :</label><label  class="col-sm-10 ">'+data[index].Plot +'</label><br>'+
+					'<label  class="col-sm-2 ">Language :</label><label  class="col-sm-10 ">'+data[index].Language +'</label><br>'+
+					'<label  class="col-sm-2 ">Country :</label><label  class="col-sm-10 ">'+data[index].Country +'</label><br>'+
+					'<label  class="col-sm-2 ">Release :</label><label  class="col-sm-10 ">'+data[index].Released +'</label><br>'+
+					'<label  class="col-sm-2 ">Rating :</label><label  class="col-sm-10 ">'+data[index].Rating +'</label><br>'+
+					'<label  class="col-sm-2 ">Awards :</label><label  class="col-sm-10 ">'+data[index].Awards +'</label><br>'+
+					'<div class="btn-group pull-right" ><br/><br/><br/><br/>'+
+					'<a href="#" id="deleteMovie?title='+data[index].Title+'" class="btn btn-warning btn-sm  delete" data-toggle="modal"  data-target="#myModal1" type="button">Delete'+
+							'</a><button class="btn btn-primary btn-sm update1" type="button" id="'+val.Title
+                +"|"+val.Year+"|"+val.Actors+"|"+val.Director+"|"+val.Plot+"|"+val.Poster+"|"+val.Rating+"|"+val.Awards+"|"+val.Released+"|"+val.Language+"|"+val.Country+'" data-toggle="modal" data-target="#myModalHorizontal">Update</button>  </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>';
+				 });
+				 $('#id01').html(out);
+
+
+			 $(".update1").click(function(){
+
+				 $('.addBtn').addClass('hidden');
+				 $('.updtBtn').removeClass('hidden');
+				 $('#myModalLabel').html('Update Movie Details');
+		 				var data1=$(this).attr('id');
+		 				var values=data1.split('|');
+		 				$('#title').val(values[0]);
+		 				$('#title').attr("readonly","readonly");
+
+		 				$('#year').val(values[1]);
+		 				$('#actors').val(values[2]);
+		 				$('#director').val(values[3]);
+		 				$('#plot').val(values[4]);
+
+		 				$('#rating').val(values[6]);
+		 				$('#awards').val(values[7]);
+						$('#language').val(values[9]);
+		 				$('#country').val(values[10]);
+						$('#released').val(values[8]);
+
+
+		 });
+
+
+
+
+	//	document.getElementById("id01").innerHTML = out;
+
+	$(".addNew ,.addMovieBtn").click(function(){
+
+			$('#title').removeAttr("readonly");
+			$('.updtBtn').addClass('hidden');
+			$('.addBtn').removeClass('hidden');
+			$('#myModalLabel').html('Add Movie Details');
+
+			 $('input').val('');
+			 $('textarea').val('');
+	});
+
+
+	$('.delete').click(function() {
+                var data = $(this).attr('id');
+                console.log(data);
+                $('.dlbutton').attr("href", data);
+            });
+
+}
+});
+
+});
+
+
+
+			</script>
+
+
+
+
+	</body>
+</html>
